@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/file"
+        android:icon="@drawable/ic_launcher"
+        android:title="file"
+        app:showAsAction="always">
+        <!-- "file" submenu -->
+        <menu>
+            <item
+                android:id="@+id/analise"
+                android:title="Ultima análise" />
+            <item
+                android:id="@+id/bluetooth"
+                android:title="Conexão bluetooth" />
+            <item
+                android:id="@+id/unidade"
+                android:title="Unidades" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/unifor"
+        android:icon="@drawable/ic_launcher1"
+        android:title="unifor"
+        app:showAsAction="always" />
+
+
+
+</menu>

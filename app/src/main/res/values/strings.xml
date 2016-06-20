@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">UNIFOR_OBDReaderII</string>
+    <!-- activity_obd_conection -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_obd_begin">ObdBegin</string>
+    <string name="pareados">Dispositivos pareados:</string>
+    <string name="procurar">Procurar dispositivos:</string>
+    <string name="procurar1">Procurar dispositivos</string>
+    <string name="voltar">Voltar</string>
+    <string name="tv_pareado">Nenhum Dispositivo Pareado</string>
+    <string name="tv_encontrado">Nenhum Dispositivo Encontrado</string>
+    <!-- activity_obd_infos -->
+    <string name="iniciar_teste">Iniciar Teste</string>
+    <string name="RPM">RPM</string>
+    <string name="Throttler">Throttler</string>
+    <string name="IgnitionTiming">Ignition Timing</string>
+    <string name="FuelConsumptionRate">Fuel Consumption</string>
+    <string name="MassAirFlow">Mass Air Flow</string>
+    <string name="inicio1">0</string>
+    <string name="inicio2">0.0</string>
+    <string name="title_activity_obd_analises">ObdAnalisesActivity</string>
+    <!-- activity_obd_analises -->
+    <string name="salvar">Salvar Análises</string>
+    <string name="title_activity_pdf">PDF</string>
+    <!-- valores rpm -->
+    <string name="inicio">Iniciar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="rpmi">Valor do RPM inicial</string>
+    <string name="rpmf">Valor do RPM final</string>
+
+    <string name="sobre">O aplicativo Unifor-OBDReaderII é mais uma ferramenta para a comunidade acadêmica da Universidade de Fortaleza.
+        Participantes do projeto: Doutor Eurico Vascocelos, Doutor Zé Renato, Paulo Roberto, Alvaro Ximenes, Daniel Lopes, Daniel Maia e Matheus Mafra</string>
+    <string name="fechar">Fechar</string>
+    <!--
+    <string name="unitPorcentagem">%</string>
+    <string name="unitLitros_Hora">L/h</string>
+    <string name="unitGrama_Segundo">g/s</string>
+    -->
+    <string name="unitPorcentagem">%</string>
+    <string name="unitLitros_Hora">L/h</string>
+    <string name="unitGrama_Segundo">g/s</string>
+    <string name="unidade">Unidade</string>
+    <string name="teste">Teste em andamento...</string>
+    <string name="cancelar_teste">cancelar teste</string>
+
+</resources>

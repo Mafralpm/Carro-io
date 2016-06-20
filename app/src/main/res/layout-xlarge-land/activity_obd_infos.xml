@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dff3fe"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/layout"
+        android:layout_alignLeft="@+id/layout"
+        android:layout_alignRight="@+id/layout"
+        android:layout_alignStart="@+id/layout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="40sp">
+
+                <TextView
+                    android:id="@+id/RPM"
+
+                    android:layout_width="550dp"
+                    android:layout_height="550dp"
+
+                    android:background="@drawable/circle1"
+                    android:gravity="center"
+                    android:text="@string/inicio1"
+                    android:textColor="#FFFFFF"
+                    android:textSize="160sp" />
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="370dp"
+                    android:text="@string/RPM"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textSize="60sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="255dp"
+                        android:layout_height="255dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:background="@drawable/circle2">
+
+                        <TextView
+                            android:id="@+id/Borboleta"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+                            android:gravity="center"
+                            android:text="@string/inicio2"
+                            android:textColor="#012967"
+                            android:textSize="80sp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv2"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Borboleta"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/Throttler"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#012967"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/unitThrottler"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unitPorcentagem"
+                            android:textColor="#012967"
+                            android:textSize="50sp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/Borboleta"
+                            android:layout_toEndOf="@+id/Borboleta" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="255dp"
+                        android:layout_height="255dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:background="@drawable/circle2">
+
+                        <TextView
+                            android:id="@+id/Ignicao"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="@string/inicio2"
+                            android:textColor="#012967"
+                            android:textSize="80sp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv3"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Ignicao"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/IgnitionTiming"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#012967"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/unitIgnitionTiming"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unitPorcentagem"
+                            android:textColor="#012967"
+                            android:textSize="50sp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/Ignicao"
+                            android:layout_toEndOf="@+id/Ignicao" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="255dp"
+                        android:layout_height="255dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:background="@drawable/circle2">
+
+                        <TextView
+                            android:id="@+id/Consumo"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="@string/inicio2"
+                            android:textColor="#012967"
+                            android:textSize="80sp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv4"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/Consumo"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/FuelConsumptionRate"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#012967"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/unitFuelConsumptionRate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unitLitros_Hora"
+                            android:textColor="#012967"
+                            android:textSize="35sp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/Consumo"
+                            android:layout_toEndOf="@+id/Consumo" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="255dp"
+                        android:layout_height="255dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10sp"
+                        android:layout_marginRight="10sp"
+                        android:background="@drawable/circle2">
+
+                        <TextView
+                            android:id="@+id/MassAir"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="center"
+                            android:text="@string/inicio2"
+                            android:textColor="#012967"
+                            android:textSize="80sp"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                        <TextView
+                            android:id="@+id/tv5"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/MassAir"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/MassAirFlow"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#012967"
+                            android:textSize="25sp" />
+
+                        <TextView
+                            android:id="@+id/unitMassAirFlow"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unitGrama_Segundo"
+                            android:textColor="#012967"
+                            android:textSize="35sp"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@+id/MassAir"
+                            android:layout_toEndOf="@+id/MassAir" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/linearLayout2"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/teste"
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/indeterminate_progress_small_native"
+            android:layout_width="31dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            style="?android:progressBarStyle"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <Button
+            android:id="@+id/testBT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#012967"
+            android:text="@string/iniciar_teste"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
